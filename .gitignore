@@ -482,3 +482,21 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+# Ignore backend build artifacts
+JobApplicationTracker.Api/bin/
+JobApplicationTracker.Api/obj/
+
+# Ignore frontend dependencies
+job-application-tracker-client/node_modules/
+job-application-tracker-client/dist/
+job-application-tracker-client/.vite/
+
+# Ignore environment files (if any)
+job-application-tracker-client/.env
+JobApplicationTracker.Api/appsettings.*.json
+
+# Ignore IDE and system files
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
