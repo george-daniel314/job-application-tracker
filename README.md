@@ -46,7 +46,7 @@ dotnet restore
 ```sh
 dotnet run
 ```
-The API will be available at **http://localhost:5000**.
+The API will be available at **http://localhost:5000** & Swagger UI will be available at **http://localhost:5000/swagger/index.html**.
 
 
 ### 3 Frontend Setup (React with Vite)
